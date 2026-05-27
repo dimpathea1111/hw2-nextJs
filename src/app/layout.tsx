@@ -26,9 +26,12 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressContentEditableWarning
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col"       suppressContentEditableWarning
+>
         <h1>Welcom to RootLayout</h1>
+
         {children}</body>
     </html>
   );
