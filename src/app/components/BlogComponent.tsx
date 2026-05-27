@@ -9,7 +9,7 @@ interface BlogType {
 export default function BlogComponent({ id, title, body }: BlogType) {
   return (
     <div className="relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
-      <Link href={`/blog/${id}`}>
+      <Link href={`/blog/${id}`}>z
         <div className="absolute inset-0">
           <div className="h-1/3 bg-white sm:h-2/3" />
         </div>
