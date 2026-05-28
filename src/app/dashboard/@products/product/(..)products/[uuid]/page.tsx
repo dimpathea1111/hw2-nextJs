@@ -10,7 +10,7 @@ export default async function ProductDetailModal({
   const data = await fetchDetail(uuid);
 
   return (
-    <div>
+    <div >
       <ProductDetailModalComponent
         thumbnail={data.thumbnail}
         priceOut={data.priceOut}
